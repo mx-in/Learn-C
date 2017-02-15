@@ -18,6 +18,7 @@ int main(void)
 
 	max = 0;
 	while ((len  = getlines2(line, MAXLINE)) > 0) {
+		printf("%d, %s", len, line);
 		if (len > max) {
 			max = len;
 			copy(longest, line);

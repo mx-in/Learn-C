@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define MAXLINE 1000
+#define MAXLINE 10
 
 int getlines(char line[], int mxaline);
 void copy(char to[], char from[]);
@@ -13,6 +13,7 @@ int main(void)
 	
 	max = 0;
 	while((len = getlines(line, MAXLINE)) > 0)
+		printf("%d, %s", len, line);
 		if (len > max) {
 			max = len;
 			copy(longest, line);
