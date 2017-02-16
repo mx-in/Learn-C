@@ -1,3 +1,7 @@
+/*Exercise 1-15 page  27
+ *Rewrite the tempreature conversion program of Section 1.2 to use function for conversion
+ */
+
 #include <stdio.h>
 
 double fahrtocels(float fahr);
