@@ -11,7 +11,7 @@ int main(void)
 
 	nb = 0;
 	nt = 0;
-	for (pos = 1;  (c = getchar()) != EOF; ++pos) {
+	for (pos = 1; (c = getchar()) != EOF; ++pos) {
 		if(c == ' ') {
 			if (pos % TABINC != 0)
 				++nb;
