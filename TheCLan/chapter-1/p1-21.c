@@ -1,6 +1,5 @@
 /* Write the program entab that replaces strings of blanks by minum number of tabs and black achieve the same spacing. Use the same tab stops as for detab. When either a tab or a single blank would suffice to reach a tab stop which should be given preference? 
  */
-
 #include <stdio.h>
 
 #define TABINC 8 
