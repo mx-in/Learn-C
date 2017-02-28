@@ -83,14 +83,3 @@ int newpos(int pos)
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
