@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/macOS,c
+# Created by https://www.gitignore.io/api/macOS,c,vim
 
 ### C ###
 # Prerequisites
@@ -82,4 +82,18 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-# End of https://www.gitignore.io/api/macOS,c
+### Vim ###
+# swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+# End of https://www.gitignore.io/api/macOS,c,vim
